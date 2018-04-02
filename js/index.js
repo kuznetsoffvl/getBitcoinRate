@@ -17,4 +17,5 @@ function getBitcoinRate() {
 
 getBitcoinRate();
 $("button").on("click", ()=> getBitcoinRate());
+
 setInterval(getBitcoinRate, 1000);;
